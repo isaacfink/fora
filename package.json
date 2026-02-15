@@ -1,0 +1,18 @@
+{
+  "name": "fora",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "website",
+    "app"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "build": "bun run --filter '*' build",
+    "test": "bun run --filter '*' test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
